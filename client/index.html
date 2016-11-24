@@ -1,104 +1,151 @@
 <!doctype html>
 <html>
 <head>
-<title>Airtel</title>
-<meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="js/scripts.js"></script>
+	<title>Airtel</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/scripts.js"></script>
 </head>
 
 <body>
-<div class="page-wrapper"> 
-  
-  <!--//Header start here\\-->
-  <div class="page-header clearfix">
-    <div class="col-3 brand"><img src="images/airtel_header_logo.png" alt="Airtel"></div>
-    <div class="col-3 date-time text-center">Wed, Sep 16   |   9:30 am</div>
-  </div>
-  <!--//Header end here//--> 
-  
-  <!--//Main menu start here\\-->
-  <div class="menu-wrapper" id="mainMenu">
+<div class="video-wrapper">
+
+<!--//Main menu start here\\-->
+<div class="menu-wrapper hiden_dv" id="mainMenu">
     <div class="nav-wrapper">
-      <div class="nav-item"> <img src="images/search_icon.png" alt="Search">Search </div>
-      <div class="nav-item active"> <img src="images/home_icon.png" alt="Home">Home </div>
-      <div class="nav-item"> <img src="images/music_icon.png" alt="Music">Music </div>
-      <div class="nav-item"> <img src="images/sports_icon.png" alt="Sports">Sports </div>
-      <div class="nav-item"> <img src="images/home_icon.png" alt="Categories">Categories 4 </div>
-      <div class="nav-item"> <img src="images/home_icon.png" alt="Categories">Categories 5 </div>
-      <div class="nav-item"> <img src="images/home_icon.png" alt="Categories">Categories 6 </div>
-      <div class="nav-item"> <img src="images/settings_icon.png" alt="Settings">Settings </div>
+		<div class="nav-item">
+			<img src="images/search_icon.png" alt="Search">Search
+		</div>
+		<div class="nav-item active">
+			<img src="images/home_icon.png" alt="Home">Home
+		</div>
+		<div class="nav-item">
+			<img src="images/music_icon.png" alt="Music">Music
+		</div>
+		<div class="nav-item">
+			<img src="images/sports_icon.png" alt="Sports">Sports
+		</div>
+		<div class="nav-item">
+			<img src="images/home_icon.png" alt="Categories">Categories 4
+		</div>
+		<div class="nav-item">
+			<img src="images/home_icon.png" alt="Categories">Categories 5
+		</div>
+		<div class="nav-item">
+			<img src="images/home_icon.png" alt="Categories">Categories 6
+		</div>
+		<div class="nav-item">
+			<img src="images/settings_icon.png" alt="Settings">Settings
+		</div>
+	</div>
+</div>
+<!--\\Main menu end here//-->
+
+<!--//Content start here\\-->
+<div class="content-wrapper">
+	<div class="vedio_header_title">
+      <span class="video_title_icon"><img src="images/video_title_icon.jpg" alt="video_title_icon"/></span>
+      <div class="title-music">Sony Music India</div>
+      <div class="follower-music">2,856,801 followers</div>
     </div>
+	<section class="video_section">
+    <div class="play_btn play"></div>
+    		<video poster="images/video_screen.jpg" id="bgvid" playsinline muted >
+              <source src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm"/>
+              <source src="http://thenewcode.com/assets/videos/polina.mp4" type="video/mp4"/>
+           </video>
+           
+     <!--\\pause video discription start here//-->
+     
+           <div class="video_discription clearfix hiden_dv">
+           		<div class="status">You are watching</div>
+                <div class="video_title_name">Ae Dil Hai Mushkil I Official Video Song</div>
+                <div class="video_char_name">Karan Johar | Aishwarya, Ranbir, Anushka | Pritam</div>
+                <div class="video_view">Music | 4 Days ago | 2,298,468 views</div>
+                
+                <div class="videoGridWrapper recent_video_list">
+                <div class="next_video_song">Up Next</div>
+                   <div tabindex="0" class="video-tile pause_poster_video focus">
+                    <div class="poster-thumb">
+                      <img src="images/poster_img01.jpg" alt="Paani Ka Raasta Lyrical Video Song">
+                      <div class="btn play"></div>
+                    </div>
+                  </div>
+                  <div tabindex="0" class="video-tile pause_poster_video focus">
+                    <div class="poster-thumb">
+                      <img src="images/poster_img01.jpg" alt="Paani Ka Raasta Lyrical Video Song">
+                      <div class="btn play"></div>
+                    </div>
+                  </div>
+                  <div tabindex="0" class="video-tile pause_poster_video focus">
+                    <div class="poster-thumb">
+                      <img src="images/poster_img01.jpg" alt="Paani Ka Raasta Lyrical Video Song">
+                      <div class="btn play"></div>
+                    </div>
+                  </div>
+                  <div tabindex="0" class="video-tile pause_poster_video focus">
+                    <div class="poster-thumb">
+                      <img src="images/poster_img01.jpg" alt="Paani Ka Raasta Lyrical Video Song">
+                      <div class="btn play"></div>
+                    </div>
+                  </div>
+                  <div tabindex="0" class="video-tile pause_poster_video focus">
+                    <div class="poster-thumb">
+                      <img src="images/poster_img01.jpg" alt="Paani Ka Raasta Lyrical Video Song">
+                      <div class="btn play"></div>
+                    </div>
+                  </div>
+				</div>
+           </div>
+         <!--\\pause video discription end here//-->
+           
+    	<div class="video_control">
+        	<div class="progress_bar">
+              <span class="time_decrise">0:14</span>
+              <span class="time_increase">3:13</span>
+              <div class="scrollar"><img src="images/progress_bar.png" alt=""/></div>
+            </div>
+            <div class="action_section">
+            	<ul>
+                	<li>
+                    	<a href="#">
+                        	<div class="act_button"><img src="images/back_10_second.png" alt=""/></div>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#">
+                        	<div class="act_button"><img src="images/prev_button.png" alt=""/></div>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#">
+                        	<div class="act_button"><img src="images/pause_button.png" alt=""/></div>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#">
+                        	<div class="act_button"><img src="images/next_button.png" alt=""/></div>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="#">
+                        	<div class="act_button"><img src="images/forword_10_second.png" alt=""/></div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
   </div>
-  <!--\\Main menu end here//--> 
-  
-  <!--//Content start here\\-->
-  <div class="content-wrapper">
-    <div class="page_title">settings</div>
-    
-    <!--//set resolution start here\\-->
-    <div class="quality_set_section">
-      <div class="quality_title">Set default video quality</div>
-      <ul>
-        <li tabindex="0">
-          <div class="set">Auto</div>
-        </li>
-        <li tabindex="0">
-          <div class="set">240p</div>
-        </li>
-        <li tabindex="0">
-          <div class="set">360p</div>
-        </li>
-        <li class="active" tabindex="0">
-          <div class="set">480p</div>
-        </li>
-        <li tabindex="0">
-          <div class="set">720p</div>
-        </li>
-        <li tabindex="0">
-          <div class="set">1080p</div>
-        </li>
-      </ul>
-    </div>
-    <!--//set resolution start here\\--> 
-    
-  </div>
-  <!--//Content start here//--> 
-  
-  <!--//Video grid start here//-->
-  <div class="cheakGridWrapper">
-    <div tabindex="0" class="check-tiles">
-      <div class="tile_title">Notifications</div>
-      <div class="tile_status">Enabled</div>
-      <div class="tile_checked_section">
- 		<input type="checkbox" name="Notifications" value="valuable" id="Notifications"/><label for="Notifications"></label>
-      </div>
-    </div>
-    <div tabindex="0" class="check-tiles">
-      <div class="tile_title">Recommended Videos</div>
-      <div class="tile_status">Disabled</div>
-      <div class="tile_checked_section">
- 		<input type="checkbox" name="Recommended" value="valuable" id="Recommended"/><label for="Recommended"></label>
-      </div>
-    </div>
-    <div tabindex="0" class="check-tiles">
-      <div class="tile_title">Video Subtitles</div>
-      <div class="tile_status">Disabled</div>
-      <div class="tile_checked_section">
-   		<input type="checkbox" name="Subtitles" value="valuable" id="Subtitles"/><label for="Subtitles"></label>
-      </div>
-    </div>
-    <div tabindex="0" class="check-tiles">
-      <div class="tile_title">Age Gate / Safe Mode</div>
-      <div class="tile_status">Disabled</div>
-      <div class="tile_checked_section">
-   		<input type="checkbox" name="Safemode" value="valuable" id="Safemode"/><label for="Safemode"></label>
-      </div>
-    </div>
-  </div>
-  <!--//Video grid end here//--> 
-  
+<!--//Content start here//-->
+
+<!--//Video grid start here//-->
+
+<!--//Video grid end here//-->
+
 </div>
 </body>
 </html>
+
