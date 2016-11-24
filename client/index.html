@@ -1,124 +1,104 @@
 <!doctype html>
 <html>
 <head>
-	<title>Airtel</title>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="js/scripts.js"></script>
+<title>Airtel</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
 </head>
 
 <body>
-<div class="page-wrapper bg-black">
-
-<!--//Main menu start here\\-->
-<div class="menu-wrapper" id="mainMenu">
+<div class="page-wrapper"> 
+  
+  <!--//Header start here\\-->
+  <div class="page-header clearfix">
+    <div class="col-3 brand"><img src="images/airtel_header_logo.png" alt="Airtel"></div>
+    <div class="col-3 date-time text-center">Wed, Sep 16   |   9:30 am</div>
+  </div>
+  <!--//Header end here//--> 
+  
+  <!--//Main menu start here\\-->
+  <div class="menu-wrapper" id="mainMenu">
     <div class="nav-wrapper">
-		<div class="nav-item">
-			<img src="images/search_icon.png" alt="Search">Search
-		</div>
-		<div class="nav-item active">
-			<img src="images/home_icon.png" alt="Home">Home
-		</div>
-		<div class="nav-item">
-			<img src="images/music_icon.png" alt="Music">Music
-		</div>
-		<div class="nav-item">
-			<img src="images/sports_icon.png" alt="Sports">Sports
-		</div>
-		<div class="nav-item">
-			<img src="images/home_icon.png" alt="Categories">Categories 4
-		</div>
-		<div class="nav-item">
-			<img src="images/home_icon.png" alt="Categories">Categories 5
-		</div>
-		<div class="nav-item">
-			<img src="images/home_icon.png" alt="Categories">Categories 6
-		</div>
-		<div class="nav-item">
-			<img src="images/settings_icon.png" alt="Settings">Settings
-		</div>
-	</div>
-</div>
-<!--\\Main menu end here//-->
-
-<!--//Content start here\\-->
-<div class="content-wrapper">
-	<!--//channel header image start here\\-->
-    	<div class="channel-header" tabindex="1">
-   	    	<img src="images/channel_header.jpg" alt=""/>
-            <div class="video_count">15821 Videos</div>
-            <div class="header_title">
-            	<span class="video_title_icon"><img src="images/channel_icon.jpg" alt="Channel Icon"/></span>
-                <div class="title-txt">The Viral Fever Videos</div>
-                <div class="follower-txt">18K Followers</div>
-            </div>
-            <div class="gradient_bg"></div>
-        </div>
-		<!--//channel header image end here\\-->
-        <div class="navigation-tab">
-		<ul class="tabWrapper clearfix">
-			<li class="tab-item active" tabindex="0">Popular</li>
-			<li class="tab-item" tabindex="0">Most recent</li>
-		</ul>
-	</div>
+      <div class="nav-item"> <img src="images/search_icon.png" alt="Search">Search </div>
+      <div class="nav-item active"> <img src="images/home_icon.png" alt="Home">Home </div>
+      <div class="nav-item"> <img src="images/music_icon.png" alt="Music">Music </div>
+      <div class="nav-item"> <img src="images/sports_icon.png" alt="Sports">Sports </div>
+      <div class="nav-item"> <img src="images/home_icon.png" alt="Categories">Categories 4 </div>
+      <div class="nav-item"> <img src="images/home_icon.png" alt="Categories">Categories 5 </div>
+      <div class="nav-item"> <img src="images/home_icon.png" alt="Categories">Categories 6 </div>
+      <div class="nav-item"> <img src="images/settings_icon.png" alt="Settings">Settings </div>
+    </div>
   </div>
-<!--//Content start here//-->
-
-<!--//Video grid start here//-->
-<div class="videoGridWrapper height-scroll">
- <div tabindex="0" class="video-tile default-height focus">
-  <div class="poster-thumb">
-    <img src="images/poster_img01.jpg" alt="Paani Ka Raasta Lyrical Video Song">
-    <div class="btn play"></div>
-    <span class="time">04:01</span>
+  <!--\\Main menu end here//--> 
+  
+  <!--//Content start here\\-->
+  <div class="content-wrapper">
+    <div class="page_title">settings</div>
+    
+    <!--//set resolution start here\\-->
+    <div class="quality_set_section">
+      <div class="quality_title">Set default video quality</div>
+      <ul>
+        <li tabindex="0">
+          <div class="set">Auto</div>
+        </li>
+        <li tabindex="0">
+          <div class="set">240p</div>
+        </li>
+        <li tabindex="0">
+          <div class="set">360p</div>
+        </li>
+        <li class="active" tabindex="0">
+          <div class="set">480p</div>
+        </li>
+        <li tabindex="0">
+          <div class="set">720p</div>
+        </li>
+        <li tabindex="0">
+          <div class="set">1080p</div>
+        </li>
+      </ul>
+    </div>
+    <!--//set resolution start here\\--> 
+    
   </div>
-  <div class="title">TVF Tripling S01E03 - 'Right, left ya seedha...?</div>
-</div>
- <div tabindex="0" class="video-tile default-height focus">
-  <div class="poster-thumb">
-  	<div class="btn play"></div>
-    <img src="images/poster_img01.jpg" alt="Paani Ka Raasta Lyrical Video Song">
-    <span class="time">04:01</span>
+  <!--//Content start here//--> 
+  
+  <!--//Video grid start here//-->
+  <div class="cheakGridWrapper">
+    <div tabindex="0" class="check-tiles">
+      <div class="tile_title">Notifications</div>
+      <div class="tile_status">Enabled</div>
+      <div class="tile_checked_section">
+ 		<input type="checkbox" name="Notifications" value="valuable" id="Notifications"/><label for="Notifications"></label>
+      </div>
+    </div>
+    <div tabindex="0" class="check-tiles">
+      <div class="tile_title">Recommended Videos</div>
+      <div class="tile_status">Disabled</div>
+      <div class="tile_checked_section">
+ 		<input type="checkbox" name="Recommended" value="valuable" id="Recommended"/><label for="Recommended"></label>
+      </div>
+    </div>
+    <div tabindex="0" class="check-tiles">
+      <div class="tile_title">Video Subtitles</div>
+      <div class="tile_status">Disabled</div>
+      <div class="tile_checked_section">
+   		<input type="checkbox" name="Subtitles" value="valuable" id="Subtitles"/><label for="Subtitles"></label>
+      </div>
+    </div>
+    <div tabindex="0" class="check-tiles">
+      <div class="tile_title">Age Gate / Safe Mode</div>
+      <div class="tile_status">Disabled</div>
+      <div class="tile_checked_section">
+   		<input type="checkbox" name="Safemode" value="valuable" id="Safemode"/><label for="Safemode"></label>
+      </div>
+    </div>
   </div>
-  <div class="title">TVF Tripling S01E03 - 'Right, left ya seedha...?</div>
-</div>
- <div tabindex="0" class="video-tile default-height focus">
-  <div class="poster-thumb">
-  	<div class="btn play"></div>
-    <img src="images/poster_img01.jpg" alt="Paani Ka Raasta Lyrical Video Song">
-    <span class="time">04:01</span>
-  </div>
-  <div class="title">TVF Tripling S01E03 - 'Right, left ya seedha...?</div>
-</div>
- <div tabindex="0" class="video-tile default-height focus">
-  <div class="poster-thumb">
-  	<div class="btn play"></div>
-    <img src="images/poster_img01.jpg" alt="Paani Ka Raasta Lyrical Video Song">
-    <span class="time">04:01</span>
-  </div>
-  <div class="title">TVF Tripling S01E03 - 'Right, left ya seedha...?</div>
-</div>
- <div tabindex="0" class="video-tile default-height focus">
-  <div class="poster-thumb">
-  	<div class="btn play"></div>
-    <img src="images/poster_img01.jpg" alt="Paani Ka Raasta Lyrical Video Song">
-    <span class="time">04:01</span>
-  </div>
-  <div class="title">TVF Tripling S01E03 - 'Right, left ya seedha...?</div>
-</div>
- <div tabindex="0" class="video-tile default-height focus">
-  <div class="poster-thumb">
-  	<div class="btn play"></div>
-    <img src="images/poster_img01.jpg" alt="Paani Ka Raasta Lyrical Video Song">
-    <span class="time">04:01</span>
-  </div>
-  <div class="title">TVF Tripling S01E03 - 'Right, left ya seedha...?</div>
-</div>
-</div>
-<!--//Video grid end here//-->
-
+  <!--//Video grid end here//--> 
+  
 </div>
 </body>
 </html>
-
