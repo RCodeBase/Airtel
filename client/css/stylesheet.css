@@ -103,10 +103,10 @@ img {
 .page-wrapper {
 	background: #0084b4 url(../images/bird.png) no-repeat right bottom;
 	position: relative;
-	width: 1280px;
-	height: 720px;
+	width: 1252px;
+	height: 702px;
 	margin: 0 auto;
-	padding: 25px 25px 25px 105px;
+	padding: 20px 20px 20px 100px;
 	overflow: hidden;
 	box-sizing: border-box;
 }
@@ -335,7 +335,7 @@ html.menuOpen .drawer:after {
 	font-size: 20px;
 }
 .trends-tag {
-	padding: 40px 60px 52px;
+	padding: 40px 60px 46px;
 }
 .trends-tag .tag {
 	display: inline-block;
@@ -397,12 +397,12 @@ html.menuOpen .drawer:after {
 }
 .tweet_container {
 	overflow: hidden;
-	margin: 10px -11px 0;
+	margin: 10px -10px 0;
 	height: 495px
 }
 .tweet_container .post {
 	outline: 4px solid #0084b4;
-	width: 370px;
+	width: 364px;
 	margin: 10px;
 }
 .tweet_container .post:focus {
@@ -531,6 +531,12 @@ html.menuOpen .drawer:after {
 .videos.tweet .tweet-post-image {
 	height: auto;
 }
+.videos.tweet .tweet-post-image > img
+{
+	max-height: 210px;
+	height: auto;
+	width: auto;
+}
 .play_btn {
 	background: url(../images/playbtn.png) no-repeat center center scroll;
 	position: absolute;
@@ -603,7 +609,7 @@ html.menuOpen .drawer:after {
 	background-color: #222426;
 }
 .tw-timeline .tw-timeline-cover {
-	width: 760px;
+	width: 748px;
 	height: 320px;
 	margin-right: 10px;
 }
@@ -654,7 +660,7 @@ html.menuOpen .drawer:after {
 	color: #fff;
 }
 .tw-timeline .user_info {
-	width: 370px;
+	width: 364px;
 	height: 320px;
 	margin-left: 10px;
 	padding: 25px;
@@ -906,7 +912,7 @@ a.pera, .pera > span {
 	width: 70px !important;
 }
 .message-text {
-	width: 790px;
+	width: 768px;
 	padding-right: 180px;
 	padding-left: 50px;
 	color: #a5a6a6;
